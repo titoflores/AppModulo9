@@ -98,11 +98,11 @@ and open the template in the editor.
 
 
                             <div class="form-group">
-                                <label for="exampleInputName">Name</label>
+                                <label for="exampleInputName">Name : Nombre</label>
                                 <input type="name" class="form-control" name="exampleInputName" aria-describedby="NameHelp" value="<?php echo $resul2[1]; ?>" placeholder="Name">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputLastName">Last Name</label>
+                                <label for="exampleInputLastName">Last Name : Apellido</label>
                                 <input type="lastName" class="form-control" name="exampleInputLastname" aria-describedby="lastNameHelp" value="<?php echo $resul2[2]; ?>" placeholder="Last Name">
                             </div>
                             <div class="form-group">
