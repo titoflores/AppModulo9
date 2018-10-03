@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Composer install
-               // bat "composer install --prefer-dist --optimize-autoloader"    
+                bat "Composer install"
             }
         }
         stage('Test') {
