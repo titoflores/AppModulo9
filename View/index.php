@@ -33,7 +33,7 @@ and open the template in the editor.
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
                 <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-                Modulo 9
+                Modulo 9 03-10-2018
             </a>
         </nav>
         <br>
