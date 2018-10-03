@@ -4,8 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Composer install
-                bat "composer install --prefer-dist --optimize-autoloader"     
-       sh 
+                bat "composer install --prefer-dist --optimize-autoloader"    
             }
         }
         stage('Test') {
