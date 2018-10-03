@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat "phpunit --bootstrap Services/ClassPersonaServ.php tests/ClassPersonaServTest >> *.txt"
+                bat "phpunit --bootstrap Services/ClassPersonaServ.php tests/ClassPersonaServTest"
             }
         }
         stage('Deliver') {
