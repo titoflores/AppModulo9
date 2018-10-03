@@ -1,6 +1,6 @@
 {
     "require": {
-        "php composer.phar install "
+        "composer install"
     }
     "require": {
         "phpunit/phpunit": "^5.7"
