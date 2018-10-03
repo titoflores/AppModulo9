@@ -18,7 +18,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                bat "xcopy . \\deploy /s /y"
+               // bat "xcopy . \\deploy /s /y" 
+               bat "xcopy . C:\\xampp\\htdocs\\deploy /s /y"
             }
         }
     }
