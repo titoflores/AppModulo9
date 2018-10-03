@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                bat "mkdir \\deploy"
+               // bat "mkdir \\deploy"
             }
         }
         stage('Deploy') {
